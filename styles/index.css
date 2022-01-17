@@ -1,0 +1,88 @@
+header{
+   font-family: 'Inter', sans-serif;
+   font-style: italic;
+   font-size: 22pt;
+   color: tomato;
+}
+
+.list-group{
+    flex-direction: row;; 
+    margin-right: 10px
+ }
+ 
+ li{
+     margin: 10px;
+  
+  }
+ 
+ .card-body h5{
+    color: purple;
+    overflow: hidden;
+ }
+ .imagen{
+   width: 100%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 50px;
+   object-fit: contain;
+
+ }
+ body{
+    background: #DCE35B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DCE35B, #45B649);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DCE35B, #45B649); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#fondo{
+   background-color: white;
+   margin-top: 50px;
+   padding: 3px;
+}
+.select{
+   position: absolute;
+   right: 50px;
+   width: 200px;
+   border: none;
+   padding: 10px;
+}
+.btnCarrito{
+   position: relative;
+   cursor: pointer;
+}
+.cart-items{
+   position:relative;
+   top: -8px;
+   right: -8px;
+}
+.fondo-carrito{
+   position: fixed;
+   top: 0;
+   right: 0;
+   width: 100%;
+   height: 100%;
+   background-color: transparent;
+   transition: var(--mainTransition);
+   background: rgb(240, 157, 81, 0.5);
+   z-index: 2;
+   visibility: hidden;
+}
+.carrito{
+   position: fixed;
+   top: 0;
+   right: 0;
+   width: 100%;
+   height: 100%;
+   overflow: scroll;
+   background: var(--mainWhite);
+   z-index: 3;
+   background: rgb(231, 226, 221);
+   padding: 1.5rem;
+   transition: var(--mainTransition);
+   transform: translateX(100%);
+}
+.showCart {
+   transform: translateX(0);
+ }
+ .transparentBcg{
+    visibility: visible;
+ }
+ 

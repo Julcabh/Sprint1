@@ -1,0 +1,91 @@
+{
+    "products": [
+      {
+        "name": "Limon",
+        "description": "Lemon is a common name for three fragrant and acid-flavored citrus fruits , mainly used in the food industry.",
+        "img": "images/imgProductos/LimonConSemilla.png",
+        "price": 3,
+        "id": 1
+      },
+      {
+        "name": "Aguacate",
+        "description": " It is a species native to Mesoamerica , specifically the highlands of central and eastern Mexico , Guatemala and El Salvador",
+        "img": "images/imgProductos/AguacateHass.png",
+        "price": 5,
+        "id": 2
+      },
+      {
+        "name": "Tomate",
+        "description": "The tomato is the fruit of the plant Solanum lycopersicum , which has culinary importance and is used as vegetables . It is considered a vegetable ",
+        "img": "images/imgProductos/Tomate.png",
+        "price": 1,
+        "id": 3
+      },
+      {
+        "name": "Naranja",
+        "description": "It is a fleshy hesperidium with a more or less thick and hardened skin, and its pulp is typically made up of eleven segments or skins filled with juice",
+        "img": "images/imgProductos/Naranja.png",
+        "price": 5,
+        "id": 4
+      },
+      {
+        "name": "Manzana",
+        "description": "The apple is the edible fruit of the Malus domestica species , the common apple tree. It is a round shaped pomegranate fruit with a very sweet taste, depending on the variety.",
+        "img": "images/imgProductos/Manzana.png",
+        "price": 6,
+        "id": 5
+      },
+      {
+        "name": "Nopal",
+        "description": "The apple is the edible fruit of the Malus domestica species , the common apple tree. It is a round shaped pomegranate fruit with a very sweet taste, depending on the variety.",
+        "img": "images/imgProductos/Nopal.png",
+        "price": 6,
+        "id": 6
+      }
+      
+    ],
+    "populares": [
+    {
+        "name": "Pechuga de pavo",
+        "description": "Lemon is a common name for three fragrant and acid-flavored citrus fruits , mainly used in the food industry.",
+        "img": "images/populares/PechugaDePavo.png",
+        "price": 3,
+        "id": 7
+    },
+    {
+        "name": "Pan blanco",
+        "description": "Lemon is a common name for three fragrant and acid-flavored citrus fruits , mainly used in the food industry.",
+        "img": "images/populares/Pan.png",
+        "price": 3,
+        "id": 8
+    },
+    {
+        "name": "Mayonesa",
+        "description": "Lemon is a common name for three fragrant and acid-flavored citrus fruits , mainly used in the food industry.",
+        "img": "images/populares/Mayonesa.png",
+        "price": 3,
+        "id": 9
+    },
+    {
+        "name": "Crema dental",
+        "description": "Lemon is a common name for three fragrant and acid-flavored citrus fruits , mainly used in the food industry.",
+        "img": "images/populares/CremaDental.png",
+        "price": 3,
+        "id": 10
+    },
+    {
+        "name": "Huevos",
+        "description": "Lemon is a common name for three fragrant and acid-flavored citrus fruits , mainly used in the food industry.",
+        "img": "images/populares/Huevos.png",
+        "price": 3,
+        "id": 11
+    },
+    {
+        "name": "Gaseosa",
+        "description": "Lemon is a common name for three fragrant and acid-flavored citrus fruits , mainly used in the food industry.",
+        "img": "images/populares/Gaseosa.png",
+        "price": 3,
+        "id": 12
+    }
+    ]
+  }
