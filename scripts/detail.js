@@ -13,7 +13,7 @@ const getLocalStorage = () => {
             <h5 class="card-title">${name}</h5>
             <p class="card-text">${description}</>
             <h5 class="card-title">USD$ ${price}</h5>
-            <a href="#" class="btn btn-outline-dark" style="background-color: #db7093;">Return</a>
+            <a href="#" class="btn btn-outline-dark" style="background-color: #45B649">Return</a>
         </div>
     </li>
     `
