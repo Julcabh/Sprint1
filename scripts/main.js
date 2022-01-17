@@ -9,13 +9,6 @@ const endpoint2="http://localhost:3000/populares/"
 
 //variables carrito
 const btnCarrito = document.querySelector(".btnCarrito")
-const btnCerrar = document.querySelector(".close-cart")
-const cartDOM = document.querySelector(".carrito")
-const fondoCarrito = document.querySelector(".fondo-carrito")
-const contenidoCar = document.querySelector(".contenido-carrito")
-
-let cart = [];
-
 
 //fin variables carrito
 btnCarrito.addEventListener('click', e => {
@@ -53,9 +46,3 @@ element.addEventListener("click", async e =>{
         window.location.href ="detail.html"
     }
 })
-/*cartBtn.addEventListener('click', showCart())
-
-function showCart() {
-    cartBox.style.display = "block";
-    document.body.style.overflowY = "hidden";
-  }*/
